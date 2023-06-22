@@ -1,0 +1,64 @@
+
+#buttons-container{
+    display: flex;
+    gap: 100px;
+    margin-left: 500px;
+   
+}
+#btn1{
+background-image: url(rock.png);
+background-size: cover;
+background-repeat: no-repeat ;
+width: 100px;
+height: 100px;
+font-weight: bolder;
+border-radius: 50%;
+font-size: larger;
+
+}
+#btn2{
+background-image: url(paper.png);
+background-size: cover;
+background-repeat: no-repeat ;
+width: 100px;
+height: 100px;
+font-weight: bolder;
+border-radius: 50%;
+font-size: larger;
+
+}
+#btn3{
+background-image: url(scissor.png);
+background-size: cover;
+background-repeat: no-repeat ;
+width: 100px;
+height: 100px;
+font-weight: bolder;
+border-radius: 50%;
+font-size: larger;
+
+}
+.btn{
+box-shadow: 5px 5px 5px black;
+}
+.btn:hover{
+transform: scale(1.2) ;
+cursor: pointer;
+box-shadow: 5px 5px 5px red;
+}
+#computer{
+height: 200px;
+width: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+cursor: pointer;
+
+box-shadow: 5px 5px 5px 5px black;
+border-radius: 50%;
+}
+
+#result{
+height: 200px;
+width: 400px;
+text-decoration: underline;
+}
